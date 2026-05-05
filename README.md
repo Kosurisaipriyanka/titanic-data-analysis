@@ -1,4 +1,5 @@
-_**TITANIC SURVIVAL ANALYSIS**_
+**TITANIC SURVIVAL ANALYSIS**
+
 
 **Project Overview**
 
@@ -66,6 +67,41 @@ Data Cleaning and Preprocessing
 Exploratory Data Analysis
 Data Visualization
 Analytical Thinking and Insight Generation
+
+## Visualizations
+
+### Survival Count
+![Survival](images/survival.png)
+
+Only a small portion of passengers survived compared to those who died.
+
+---
+
+### Survival by Gender
+![Gender](images/gender_survival.png)
+
+Women had a significantly higher survival rate than men.
+
+---
+
+### Survival by Passenger Class
+![Class](images/class_survival.png)
+
+First-class passengers had better survival compared to lower classes.
+
+---
+
+### Age Distribution
+![Age](images/age_distribution.png)
+
+Younger passengers had relatively better survival chances.
+
+---
+
+### Correlation Between Variables
+![Correlation](images/correlation.png)
+
+Shows relationships between different features in the dataset.
 
 **Future Improvements**
 
