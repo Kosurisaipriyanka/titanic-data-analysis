@@ -1,55 +1,74 @@
-# titanic-data-analysis
-Exploratory Data Analysis on Titanic dataset using Python
-Titanic Data Analysis
-Overview
+_**TITANIC SURVIVAL ANALYSIS**_
 
-This project analyzes the Titanic dataset to understand the factors that influenced passenger survival. The analysis is performed using Python with a focus on data cleaning, exploratory data analysis (EDA), and visualization.
+**Project Overview**
 
-Objectives
-Explore the dataset and understand its structure
-Perform data cleaning and preprocessing
-Analyze survival patterns based on different features
-Visualize insights using graphs
-Technologies Used
-Python
-Pandas
-Matplotlib
-Seaborn
-Dataset
+This project performs exploratory data analysis on the Titanic dataset to identify patterns and factors that influenced passenger survival. The analysis focuses on data cleaning, feature understanding, and visual insights using Python.
 
-The dataset used in this project is the Titanic dataset, commonly used for data analysis and machine learning practice.
+**Problem Statement**
 
-Key Findings
-Only 38.4% of passengers survived
-Women had a significantly higher survival rate (74.2%) compared to men (18.9%)
-First-class passengers had a higher survival rate (63%) compared to third-class passengers (24.2%)
-The average age of survivors was approximately 28.3 years
-Project Workflow
-Data Loading
-Data Cleaning (handling missing values and formatting)
-Exploratory Data Analysis
-Data Visualization
-Interpretation of results
-File Structure
-Titanic-Analysis/
+The goal is to analyze passenger data and determine how attributes such as gender, class, and age impacted survival outcomes.
+
+**Approach**
+
+Cleaned missing and inconsistent data
+Performed exploratory data analysis (EDA)
+Used visualizations to identify trends and relationships
+Interpreted results to extract meaningful insights
+
+**Tech Stack**
+
+-Python
+-Pandas
+-Matplotlib
+-Seaborn
+-Dataset
+
+The dataset used is the Titanic dataset, widely used in data science for classification and analysis tasks.
+
+**Key Insights**
+
+- Overall survival rate was 38.4 percent
+- Female passengers had a much higher survival rate (74.2 percent) than males (18.9 percent)
+- First-class passengers had significantly higher survival (63 percent) compared to third-class passengers (24.2 percent)
+- Younger passengers had better survival chances, with an average survivor age of 28.3 years
+
+**Results**
+
+The analysis clearly shows that gender and passenger class were the most influential factors affecting survival. Social and economic status played a major role in determining outcomes.
+
+**Project Structure**
+
+**Titanic-Analysis/
+
 │── Titanic_Analysis.ipynb
-│── train.csv
-│── README.md
-How to Run
-Clone the repository
 
-Install required libraries:
+│── train.csv
+
+│── README.md**
+
+**How to Run**
+
+**1. Clone the repository**
+
+git clone https://github.com/kosurisaipriyanka/titanic-analysis.git
+
+**2. Install dependencies**
 
 pip install pandas matplotlib seaborn
 
-Open the notebook:
+**3. Run the notebook**
 
 jupyter notebook Titanic_Analysis.ipynb
-Skills Demonstrated
-Data Cleaning
+
+**Skills Demonstrated**
+
+Data Cleaning and Preprocessing
 Exploratory Data Analysis
 Data Visualization
-Insight Extraction
-Conclusion
+Analytical Thinking and Insight Generation
 
-This project demonstrates how data analysis techniques can be applied to real-world datasets to extract meaningful insights and understand patterns effectively.
+**Future Improvements**
+
+Build a machine learning model for survival prediction
+Perform feature engineering for better insights
+Deploy as an interactive dashboard
