@@ -41,11 +41,11 @@ The analysis clearly shows that gender and passenger class were the most influen
 
 **Titanic-Analysis/
 
-│── Titanic_Analysis.ipynb
+--> Titanic_Analysis.ipynb
 
-│── train.csv
+--> train.csv
 
-│── README.md**
+--> README.md**
 
 **How to Run**
 
@@ -63,10 +63,10 @@ jupyter notebook Titanic_Analysis.ipynb
 
 **Skills Demonstrated**
 
-Data Cleaning and Preprocessing
-Exploratory Data Analysis
-Data Visualization
-Analytical Thinking and Insight Generation
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis
+- Data Visualization
+- Analytical Thinking and Insight Generation
 
 ## Visualizations
 
