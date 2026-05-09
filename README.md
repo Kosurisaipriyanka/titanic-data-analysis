@@ -105,6 +105,6 @@ Shows relationships between different features in the dataset.
 
 **Future Improvements**
 
-Build a machine learning model for survival prediction
-Perform feature engineering for better insights
-Deploy as an interactive dashboard
+-Build a machine learning model for survival prediction
+-Perform feature engineering for better insights
+-Deploy as an interactive dashboard
